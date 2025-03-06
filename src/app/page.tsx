@@ -21,9 +21,9 @@ const Home = () => {
   ]
   return (
     <>
-      <div className="px-16 py-20">
-        <h1 className="font-bold text-5xl">Available Requests Forms</h1>
-        <div className="py-16 flex space-x-12">
+      <div className="px-16 py-36">
+        <h1 className="font-bold text-4xl">Available Requests Forms</h1>
+        <div className="py-12 flex space-x-12">
           {requests.map((request) => {
             return (
               <RequestCard key={request.title} request={request}></RequestCard>
