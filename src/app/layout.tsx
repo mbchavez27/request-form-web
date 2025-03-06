@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 }
 
 import { Inter } from 'next/font/google'
-import NavBar from './components/navbar'
+import NavBar from './components/navbar/navbar'
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({ subsets: ['latin'] })
